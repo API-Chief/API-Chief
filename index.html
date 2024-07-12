@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Chief - All in One Solution for Best APIs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Group 32.png" alt="API Chief Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="https://rapidapi.com/organization/rizzards-of-oz">APIChief</a></li>
+                <li><a href="">Enterprise</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>API Chief</h1>
+            <p>All in One Solution for Best APIs</p>
+        </div>
+    </header>
+    <main>
+        <div class="api-grid" id="apiContainer">
+            <!-- API boxes will be loaded here -->
+        </div>
+    </main>
+    <div class="modal" id="apiModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalDetails">
+                <!-- API details will be loaded here -->
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('api.json')
+                .then(response => response.json())
+                .then(apis => {
+                    const apiContainer = document.getElementById('apiContainer');
+                    for (const key in apis) {
+                        const api = apis[key];
+                        const apiBox = document.createElement('div');
+                        apiBox.classList.add('api-box');
+                        apiBox.innerHTML = `
+                            <h2>${api.name}</h2>
+                            <p>${api.shortDescription}</p>
+                        `;
+                        apiBox.onclick = () => showApiDetails(api);
+                        apiContainer.appendChild(apiBox);
+                    }
+                });
+        });
+
+        function showApiDetails(api) {
+            const modalDetails = document.getElementById('modalDetails');
+            modalDetails.innerHTML = `
+                <h2>${api.name}</h2>
+                <img src="${api.image}" alt="${api.name} image">
+                <p>${api.description}</p>
+                <p>Pricing: ${api.pricing}</p>
+                <p><a href="${api.documentation}" target="_blank">Documentation</a></p>
+                <p><a href="${api.url}" target="_blank">View on RapidAPI</a></p>
+            `;
+            document.getElementById('apiModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('apiModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
