@@ -3,9 +3,8 @@
         "name": "QR Code",
         "description": "Best QR code Generator API. Easily generate QR Codes from text or url with a simple GET request. Receive QR code logos as responses, perfect for embedding into websites, printing on marketing materials, or sharing digitally. Streamline your QR code generation process with our convenient and efficient API.",
         "shortDescription": "Generate QR Codes from text or URL.",
-        "image": "logos/qr.webp",
-        "documentation": "https://example.com/qr-code-docs",
-        "url": "https://rapidapi.com/example-qr-code-site",
+        "image": "logos/qr.jpg",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/qr-code90",
         "pricing": "Free tier available"
     },
     "unitConverter": {
@@ -13,8 +12,7 @@
         "description": "Simplify your unit conversions with our powerful API that brings an extensive range of measurement conversions together in one place. Seamlessly switch between various units, including length, weight, temperature, volume, time, pressure, and energy, all with just one API call.",
         "shortDescription": "Perform a wide range of unit conversions.",
         "image": "logos/unit.webp",
-        "documentation": "https://example.com/unit-converter-docs",
-        "url": "https://rapidapi.com/example-unit-converter-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/unit-converter8",
         "pricing": "Free tier available"
     },
     "randomUser": {
@@ -22,8 +20,7 @@
         "description": "Generate fake random user data such as username, name, email, address and much more for placeholders or application testing.",
         "shortDescription": "Generate fake random user data for testing.",
         "image": "logos/user.webp",
-        "documentation": "https://example.com/random-user-docs",
-        "url": "https://rapidapi.com/example-random-user-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/random-user8",
         "pricing": "Free tier available"
     },
     "ipAddressFinder": {
@@ -31,8 +28,7 @@
         "description": "Get country, region, city, zip, latitude, longitude and much more effortlessly with our API. Instantly access comprehensive IP address details to enhance your applications with precise geolocation data. Elevate user experiences and geo-target content seamlessly!",
         "shortDescription": "Get detailed IP address geolocation data.",
         "image": "logos/ip.webp",
-        "documentation": "https://example.com/ip-address-finder-docs",
-        "url": "https://rapidapi.com/example-ip-address-finder-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/ip-address-finder",
         "pricing": "Free tier available"
     },
     "country": {
@@ -40,8 +36,7 @@
         "description": "The Country API provides information about countries worldwide. It offers endpoints for accessing data such as country names, ISO codes, population, area, currency, time zones, languages spoken, and other relevant demographic and geographic details. Developers can integrate this API into their applications to retrieve accurate and up-to-date information about countries, facilitating tasks such as localization, demographic analysis, and data visualization.",
         "shortDescription": "Access comprehensive information about countries.",
         "image": "logos/country.webp",
-        "documentation": "https://example.com/country-docs",
-        "url": "https://rapidapi.com/example-country-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/country55",
         "pricing": "Free tier available"
     },
     "cars": {
@@ -49,8 +44,7 @@
         "description": "The Cars API provides comprehensive vehicle data, delivering detailed information on a wide range of car attributes. This API returns structured JSON responses that include specifications for vehicle dimensions, engine details, fuel economy, and identification features.",
         "shortDescription": "Access comprehensive vehicle data.",
         "image": "logos/cars.webp",
-        "documentation": "https://example.com/cars-docs",
-        "url": "https://rapidapi.com/example-cars-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/cars76",
         "pricing": "Free tier available"
     },
     "airplanes": {
@@ -58,8 +52,7 @@
         "description": "Retrieve information on all available plane models. This API provides details on at least 5 planes that match the specified parameters.",
         "shortDescription": "Retrieve details on various airplane models.",
         "image": "logos/plane.webp",
-        "documentation": "https://example.com/airplanes-docs",
-        "url": "https://rapidapi.com/example-airplanes-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/airplanes",
         "pricing": "Free tier available"
     },
     "loremIpsum": {
@@ -67,8 +60,7 @@
         "description": "Generate Lorem Ipsum filler text you need for your design and layout purposes. With customizable options for length and formatting, you can generate Lorem Ipsum text tailored to your specific requirements. Say goodbye to the hassle of manually copying and pasting Lorem Ipsum and hello to seamless integration with our API. Streamline your design workflow and achieve polished results in no time with the Lorem Ipsum Generator API.",
         "shortDescription": "Generate customizable Lorem Ipsum text.",
         "image": "logos/lorem.webp",
-        "documentation": "https://example.com/lorem-ipsum-docs",
-        "url": "https://rapidapi.com/example-lorem-ipsum-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/lorem-ipsum-generator1",
         "pricing": "Free tier available"
     },
     "jokes": {
@@ -76,8 +68,7 @@
         "description": "With a massive collection of jokes at your fingertips, Jokes API specializes in delivering dad jokes, funny jokes, and dark humor jokes straight from the internet. Whether you're looking for something offbeat or distinctive, our extensive collection ensures you'll find humor that pushes the boundaries.",
         "shortDescription": "Access a large collection of jokes, including dad jokes and dark humor.",
         "image": "logos/jokes.webp",
-        "documentation": "https://example.com/jokes-docs",
-        "url": "https://rapidapi.com/example-jokes-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/jokes-api4",
         "pricing": "Free tier available"
     },
     "quoteOfTheDay": {
@@ -85,8 +76,7 @@
         "description": "Get quotes from a collection of massive 75000 quotes! The Quote of the Day API offers motivational content, perfect for any app. It includes authors and genres, making it easy to engage users with inspiring messages.",
         "shortDescription": "Retrieve motivational quotes with authors and genres.",
         "image": "logos/quote.webp",
-        "documentation": "https://example.com/quote-of-the-day-docs",
-        "url": "https://rapidapi.com/example-quote-of-the-day-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/quote-of-the-day-api",
         "pricing": "Free tier available"
     },
     "riddle": {
@@ -94,8 +84,7 @@
         "description": "RiddleAPI provides endpoints to fetch random riddles or a list of riddles with their answers.",
         "shortDescription": "Fetch random riddles with answers.",
         "image": "logos/riddle.webp",
-        "documentation": "https://example.com/riddle-docs",
-        "url": "https://rapidapi.com/example-riddle-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/riddle-api",
         "pricing": "Free tier available"
     },
     "footballPlayers": {
@@ -103,8 +92,7 @@
         "description": "Football Players API offers comprehensive player information from a vast database of football stars. You can fetch a random player, search for players by name or nationality, and discover players from specific national teams.",
         "shortDescription": "Get detailed information on football players.",
         "image": "logos/football.webp",
-        "documentation": "https://example.com/football-players-docs",
-        "url": "https://rapidapi.com/example-football-players-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/football-players-api",
         "pricing": "Free tier available"
     },
     "worldTouristAttractions": {
@@ -112,8 +100,7 @@
         "description": "World Tourist Attractions API provides information about various tourist attractions and landmarks from around the world.",
         "shortDescription": "Get information on world tourist attractions.",
         "image": "logos/tourist.webp",
-        "documentation": "https://example.com/world-tourist-attractions-docs",
-        "url": "https://rapidapi.com/example-world-tourist-attractions-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/world-tourist-attractions-api",
         "pricing": "Free tier available"
     },
     "animals" : {
@@ -121,8 +108,7 @@
         "description": "The Animals API provides concise information on various animals, including data such as their average speed, color, conservation status, countries found, diet, family, gestation period, habitat, height, lifespan, offspring per birth, predators, social structure, top speed, and weight.",
         "shortDescription": "Get detailed information on various animals.",
         "image": "logos/animals.webp",
-        "documentation": "https://example.com/animals-docs",
-        "url": "https://rapidapi.com/example-animals-site",
+        "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/animals7",
         "pricing": "Free tier available"
     },
 "cryptoValue": {
@@ -130,8 +116,7 @@
     "description": "Get Real Time Cryptocurrency Value.",
     "shortDescription": "Fetch real-time cryptocurrency values.",
     "image": "logos/crypto.webp",
-    "documentation": "https://example.com/crypto-value-docs",
-    "url": "https://rapidapi.com/example-crypto-value-site",
+    "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/crypto-value-api",
     "pricing": "Free tier available"
 },
 "videoGamesInfo": {
@@ -139,8 +124,7 @@
     "description": "Our API provides the best Video Games Recommendations and allows you to search Video games by genre.",
     "shortDescription": "Get video game recommendations and search by genre.",
     "image": "logos/games.webp",
-    "documentation": "https://example.com/video-games-info-docs",
-    "url": "https://rapidapi.com/example-video-games-info-site",
+    "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/video-games-info-api",
     "pricing": "Free tier available"
 },
 "astronaut": {
@@ -148,8 +132,7 @@
     "description": "This API retrieves information about astronauts currently in space.",
     "shortDescription": "Retrieve information about astronauts in space.",
     "image": "logos/astronaut.webp",
-    "documentation": "https://example.com/astronaut-docs",
-    "url": "https://rapidapi.com/example-astronaut-site",
+    "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/astronaut-api",
     "pricing": "Free tier available"
 },
 "randomNumber": {
@@ -157,8 +140,7 @@
     "description": "Generate Random Number. Optionally, Generate random numbers within a specified range by providing optional query parameters minimum and maximum.",
     "shortDescription": "Generate random numbers, optionally within a range.",
     "image": "logos/randnum.webp",
-    "documentation": "https://example.com/random-number-docs",
-    "url": "https://rapidapi.com/example-random-number-site",
+    "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/random-number7",
     "pricing": "Free tier available"
 },
 "randomAlphabet": {
@@ -166,8 +148,7 @@
     "description": "Generate random alphabet.",
     "shortDescription": "Generate random alphabet characters.",
     "image": "logos/randalp.webp",
-    "documentation": "https://example.com/random-alphabet-docs",
-    "url": "https://rapidapi.com/example-random-alphabet-site",
+    "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/random-alphabet",
     "pricing": "Free tier available"
 },
 "ipAnonymizer": {
@@ -175,8 +156,7 @@
     "description": "The Secure IP Anonymizer API offers a robust solution for anonymizing IP addresses using the highly secure hashing algorithm.",
     "shortDescription": "Anonymize IP addresses securely.",
     "image": "logos/anony.webp",
-    "documentation": "https://example.com/ip-anonymizer-docs",
-    "url": "https://rapidapi.com/example-ip-anonymizer-site",
+    "url": "https://rapidapi.com/rizzards-of-oz-rizzards-of-oz-default/api/ip-anonymizer",
     "pricing": "Free tier available"
 }
 }
